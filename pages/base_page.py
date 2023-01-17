@@ -16,3 +16,6 @@ class BasePage():
 
     def open(self):
         self.browser.get(self.url)
+
+    def login_url(self):
+        return self.browser.current_url
