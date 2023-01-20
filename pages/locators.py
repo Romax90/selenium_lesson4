@@ -20,3 +20,4 @@ class ProductPageLocators():
         '#messages > div.alert.alert-safe.alert-noicon.alert-info.fade.in > div > p:nth-child(1) > strong')
     FILD_ADD_TO_BAG = (By.CSS_SELECTOR, "#messages > div:nth-child(1)")
     FILD_PRICE = (By.XPATH, '//*[@id="messages"]/div[3]/div/p[1]/strong')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, 'div.alertinner strong')
